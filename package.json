@@ -1,6 +1,6 @@
 {
   "name": "marty",
-  "version": "0.10.5",
+  "version": "0.11.0",
   "description": "A Javascript library for state management in React applications",
   "main": "marty.js",
   "directories": {
@@ -21,19 +21,21 @@
   "dependencies": {
     "es6-promise": "^2.0.0",
     "isomorphic-fetch": "^2.1.0",
-    "marty-lib": "^0.10.8"
+    "marty-lib": "^0.11.0"
   },
   "devDependencies": {
     "babel": "^5.0.0",
     "babelify": "^6.0.0",
     "browserify": "^10.0.0",
     "bundle-collapser": "^1.2.0",
-    "react": "^0.13.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
     "semver": "^4.2.0",
     "uglify-js": "^2.4.23"
   },
   "peerDependencies": {
-    "react": "0.13.x"
+    "react": "0.14.x || ^15.0.2",
+    "react-dom": "0.14.x || ^15.0.2"
   },
   "author": "James Hollingworth",
   "license": "MIT",
